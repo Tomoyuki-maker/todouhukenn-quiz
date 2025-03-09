@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#app {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px; /* h1要素の文字サイズを大きくする例（適宜調整） */
+}
+
+input, button {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#result {
+    color: red; /* 正解時の文字色を赤に設定 */
+}
+
+#result.incorrect {
+    color: blue; /* 不正解時の文字色を青に設定 */
+    font-size: 24px; /* 例として24pxに設定 */
+}
+
+#result.correct,
+#historyList .correct {
+    color: red; /* 正解時の文字色を赤に設定 */
+    font-size: 24px; /* 例として24pxに設定 */
+}
+
+#result.incorrect,
+#historyList .incorrect {
+    color: blue; /* 不正解時の文字色を青に設定 */
+    font-size: 24px; /* 例として24pxに設定 */
+}
